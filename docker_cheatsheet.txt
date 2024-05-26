@@ -1,0 +1,28 @@
+//doker chetsheet:
+1)download docker
+2)type docker in terminal
+commands:
+-docker
+-docker -v
+-docker run -it ubuntu(for creating ubantu image in intereactive mode)
+-ls (list directories in that machines)
+-whoami(for getting machine name or user name)
+-docker conatiner ls (lists current running containers)'run on computers local terminal'
+-docker conatiner ls -a (lists all containers that are present)
+-docker start 'containername' (starts container named thet name)
+-docker stop 'containername' (stops that container)
+-docker exec 'containername' 'command to execute in that container'(like ls) :(that will go in that container execute commands and retur results on local machine on which we installed container as windows in your case)
+-docker exec -it 'containername' bash(used to be attched with that containers actual terminal insted of returning from it)
+-docker iamges (shows images present on local machines)
+-docker image ls (for above as same pirpose)
+-docker run -it node (in local terminal if we don that it create 1 container automatically and installs node as an image on it)
+
+points:
+docker run -it ubuntu:after using this command container is created using ubuntu image which generally downloaded through docker hub(platform like github form where me clone images like this)
+containers:they are just empty space to install images on it they are useless unless and until we download images on it
+-if we create two or more containers running on same image like ubantu both containers have then own local spaces their data also independant
+-as we can install image like ubuntu and run that on multiple containers
+
+about images:
+as we downloaded ubuntu image that is actually downloaded from dokcer hub there are many also images like enginex ,alpine,node js that are directly downloaded instead of downloading that inside another image ubantu
+:for example we have downloaded ubuntu and if we want node on it we simply download it but in some cases we directly download node js image
