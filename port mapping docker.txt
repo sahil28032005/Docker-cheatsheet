@@ -1,0 +1,7 @@
+:port mapping:
+//as we know containers are isolated hence ports inside container cant workk directly on local environment of computer
+//for running in local envoronment we have to expose the ports
+
+commds:
+-docker run -it -p 1025:1025 (command used for export port on local side actually where port before : represents machines port on which that port get exposed and after colen port no will represent actual port running in that image on that port)
+-docker run -it -p 5000:1025 (maps on local machines 5000 port)
