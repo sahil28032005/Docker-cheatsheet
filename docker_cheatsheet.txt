@@ -16,6 +16,7 @@ commands:
 -docker iamges (shows images present on local machines)
 -docker image ls (for above as same pirpose)
 -docker run -it node (in local terminal if we don that it create 1 container automatically and installs node as an image on it)
+-cat 'filename' (to read particular file inside container)
 
 points:
 docker run -it ubuntu:after using this command container is created using ubuntu image which generally downloaded through docker hub(platform like github form where me clone images like this)
