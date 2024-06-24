@@ -1,0 +1,3 @@
+by default docker uses bridge as default network connectivity architecture
+//commands:
+-docker network inspect bridge (shows container that are using bridge as an connectivity or more details)
