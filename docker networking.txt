@@ -1,3 +1,5 @@
 by default docker uses bridge as default network connectivity architecture
+for testing netoworking commands like ping busyBox image is best testing image also explore more...
 //commands:
 -docker network inspect bridge (shows container that are using bridge as an connectivity or more details)
+-docker network ls (shows which drivers avaliable for networking also you can make your custom driveers)
