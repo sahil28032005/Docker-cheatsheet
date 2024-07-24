@@ -1,0 +1,6 @@
+1)docker run -it ubuntu //run container from ubuntu image
+2)automatically enter if already present image and type uname in that macheine so it will confirm that we are using linux distribution 
+3)update packages (apt-get update)
+4)Now install nginx in this machine (apt-get install nginx)
+5)verify installation (nginx -v)
+6)install vim for editing files
