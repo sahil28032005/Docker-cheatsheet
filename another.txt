@@ -1,0 +1,7 @@
+commands:
+--docker images; --lists all imagess
+--docker ps ; --shows all running containers
+--suppose you are running application of docker container machine and that runs server so we cant intereact with it so we have to start that container by usig -d as detachedd mode
+--docker run -d container_Name ;--runs container in deteached mode
+--docker run -d --name containerName image_name --this will run container of custom name of speicified image
+--docker logs container_id --see container logs for error debiggers and etc
