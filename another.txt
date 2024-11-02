@@ -5,3 +5,4 @@ commands:
 --docker run -d container_Name ;--runs container in deteached mode
 --docker run -d --name containerName image_name --this will run container of custom name of speicified image
 --docker logs container_id --see container logs for error debiggers and etc
+-=-docker run -d -p host:container --name name image
