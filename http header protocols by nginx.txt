@@ -1,0 +1,14 @@
+general purpose 2 types while proxying:
+1)End to end headers
+2)Hop-by-Hop headers(generally not default goes as proxying server is unable to get it by default)
+   -apache and nginx alos differ in their own behaviours as apache uses n queen base proxy clusters and nginx we will see below:
+   -following are some headers http 1.1 (Important for web socket specially )update and upgrade:
+     1.Connection
+     2.keep-alive
+     3.public
+     4.proxy auth
+     5.Transfer encoding
+     6.upgrade
+   -nginx cant default transfers these headers
+
+-other remaining headers are end to end headers above mentioned come under hop-by-hop category
