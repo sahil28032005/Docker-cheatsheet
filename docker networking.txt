@@ -3,3 +3,25 @@ for testing netoworking commands like ping busyBox image is best testing image a
 //commands:
 -docker network inspect bridge (shows container that are using bridge as an connectivity or more details)
 -docker network ls (shows which drivers avaliable for networking also you can make your custom driveers)
+
+Image Management
+docker pull <image>: Download an image from a registry.
+docker images: List all local images.
+docker rmi <image>: Remove an image.
+Container Management
+docker run <image>: Start a new container from an image.
+docker ps: List running containers.
+docker ps -a: List all containers (running and stopped).
+docker stop <container>: Stop a running container.
+docker rm <container>: Remove a container.
+docker exec -it <container> <command>: Run a command inside a running container (e.g., bash).
+docker logs <container>: View logs for a container.
+Build & Tag
+docker build -t <tag> .: Build an image from a Dockerfile.
+docker tag <image> <repository>:<tag>: Add a tag to an image.
+docker push <repository>:<tag>: Push an image to a registry.
+Volumes & Networks
+docker volume create <volume>: Create a Docker volume.
+docker network create <network>: Create a custom network.
+docker run --volume <host_path>:<container_path>: Mount a host directory as a volume.
+docker run --network <network> <image>: Attach a container to a custom network.
